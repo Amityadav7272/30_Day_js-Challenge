@@ -1,0 +1,11 @@
+.bold{
+    font-size: 30px;   
+    font-weight: 500;
+}
+.list ::marker{
+    color: red;
+}
+img{
+    height: 20vh;
+    border: 2px solid black;
+}
