@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Event handling</title>
+</head>
+
+<body>
+    <div class="main">
+        <p id="para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, consectetur?
+        </p>
+        <button style="margin: 20px; display: block;" id="para-btn">Change</button>
+        <img id="image" style="border: 3px solid black;"
+            src="https://images.pexels.com/photos/27001883/pexels-photo-27001883/free-photo-of-a-white-car-is-driving-down-a-city-street.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load"
+            alt="Car"><br>
+
+        <label for="keydown">Keydown: </label>
+        <input type="text" name="logger" id="keydown" style="border: 2px solid ; margin: 20px;"
+            placeholder="Press any key"><br>
+
+        <label for="keyup">KeyUp: </label>
+        <input type="text" name="para-changer" id="keyup" style="border: 2px solid ; margin: 20px;"
+            placeholder="Press any key">
+    </div>
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+        <label for="age">Age</label>
+        <input type="number" id="age" required>
+        <label for="drop-down">Select the language you want to learn:</label>
+        <select name="language" id="drop-down">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JavaScript</option>
+            <option value="" selected>--select--</option>
+        </select>
+
+        <button style="margin: 15px; padding: 5px;">Submit</button>
+    </form>
+
+    <ul id="list">
+        <li id="a">Apple</li>
+        <li id="b">Ball</li>
+        <li id="c">Cat</li>
+        <li id="d">Dog</li>
+        <li id="e">Elephant</li>
+    </ul>
+
+
+    <script src="10_event-handling.js"></script>
+</body>
+
+</html>
